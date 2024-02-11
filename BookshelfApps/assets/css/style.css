@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "JosefinsLight";
+  src: url(../font/josefinsans-light-webfont.woff);
+}
+@font-face {
+  font-family: "JosefinsBold";
+  src: url(../font/JosefinSans-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 600px;
+  margin: 50px auto;
+}
+.container-wrapper {
+  margin-bottom: 30px;
+  background: #f8f9fa;
+  box-shadow: 0 0 9px black;
+  border-radius: 16px;
+  padding-right: 30px;
+}
+.container-wrapper h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.inputBuku {
+  margin-bottom: 15px;
+  padding: 0 22px;
+  font-family: "JosefinsLight", sans-serif;
+}
+.inputBuku label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.inputBuku input {
+  font-family: "JosefinsLight", sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  width: 550px;
+  outline: none;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+.input_inline {
+  padding-left: 20px;
+}
+.input_section > form > .input_inline {
+  
+  margin: 22px 0;
+  display: flex;
+  align-items: center;
+}
+
+.container-list {
+  background: #f8f9fa;
+  box-shadow: 0 0 9px black;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-radius: 16px;
+}
+.inner h2 p {
+  font-family: "JosefinsLight" sans-serif;
+}
+.container-header {
+  margin: 25px 0 15px 0;
+  font-family: "JosefinsBold", sans-serif;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.wrapper h1 {
+  font-family: "JosefinsBold", sans-serif;
+  font-size: 32px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.form .btn-submit {
+  align-self: flex-end;
+  border-radius: 12px;
+  padding: 12px 24px;
+  border: 2px solid gray;
+  width: 120px;
+  font-family: "JosefinsBold", sans-serif;
+}
+.list-container {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.check-button {
+  background: url("../icon/check.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+.check-button:hover {
+  background: url("../icon/check-fill.png");
+  background-size: contain;
+}
+.remove-button {
+  background: url("../icon/trash.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+  border: none;
+}
+.remove-button:hover {
+  background: url("../icon/trash-fill.png");
+  background-size: contain;
+}
+.edit-button {
+  background: url("../icon/edit.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+  border: none;
+}
+.edit-button:hover {
+  background: url("../icon/edit-fill.png");
+  background-size: contain;
+}
+.trash-button {
+  background: url("../icon/trash.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  cursor: pointer;
+  border: none;
+}
+.trash-button:hover {
+  background: url("../icon/trash-fill.png");
+  background-size: contain;
+}
+.undo-button {
+  background: url("../icon/restart.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.undo-button:hover {
+  background: url("../icon/reset.png");
+  background-size: contain;
+}
+.check-button:focus,
+.trash-button {
+  outline: none;
+}
+.search {
+  font-family: "JosefinsBold", sans-serif;
+  font-size: 25px;
+  padding: 20px 0;
+}
+.search input {
+  padding: 10px;
+  font-size: 16px;
+  font-family: "JosefinsLight", sans-serif;
+}
+.search button {
+  font-family: "JosefinsBold", sans-serif;
+  width: 125px;
+  text-align: center;
+  align-self: center;
+  padding: 12px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid gray;
+  font-size: 15px;
+  margin-top: 10px;
+}
